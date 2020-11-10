@@ -22,6 +22,30 @@ header{
   margin: 10px;
 }
 
+.header-top{
+  height: 350px;
+  width: 100%;
+  background-image: url('../img/natural-header.jpg');
+  border: 5px solid white;
+  position: relative;
+  text-align: center;
+}
+
+.header-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-image img{
+  width: 50%;
+}
+
+/* nav li a{
+  display: inline;
+} */
+
 /* main */
 main{
   margin: 10px;

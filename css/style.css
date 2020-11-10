@@ -107,6 +107,12 @@ main::after{
   list-style: none;
   padding: 5px;
   line-height: 1.6;
+
+}
+
+.menu-sx li a{
+  text-decoration: none;
+  color: green;
 }
 
 .logo-sx{
@@ -174,19 +180,29 @@ footer{
 
 footer p{
   text-align: center;
+  color: lightgrey;
 
 }
 
 footer hr{
-  border: 1px solid rgba(0, 0, 0, 0.47);
+  background-color: lightgrey;
+}
+
+/* .social{
+  width: 33%;
+} */
+
+
+.social {
+  font-size: 50px;
+  text-align: center;
+  color: lightgrey;
+  line-height: 3.5;
+
 }
 
 .social i{
-  font-size: 100px;
-  text-align: center;
-  width:
+  padding: 50px;
 }
-
-
 
 /* end */

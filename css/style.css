@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .container{
   width: 1000px;
   margin: 20px auto;
@@ -20,7 +21,7 @@ body{
 /* header */
 header{
   height: 400px;
-  background-color: green;
+  background-color: grey;
   margin: 10px;
 }
 
@@ -80,7 +81,7 @@ a:hover{
 main{
   margin: 10px;
   height: 800px;
-  background-color: grey;
+  /* background-color: grey; */
 }
 
 main::after{
@@ -91,16 +92,54 @@ main::after{
 
 .temi{
   width: 20%;
-  height: 250px;
-  background-color: blue;
+  /* height: 250px; */
+  background-color: white;
+}
+
+.logo-sx i{
+  font-size: 50px;
+  padding: 0 5px;
+  color: orange;
+  border-radius: 10px;
+}
+
+.menu-sx{
+  list-style: none;
+  padding: 5px;
+  line-height: 1.6;
+}
+
+.logo-sx{
+  width: 30%;
+  height: 50px;
+  /* background-color: red; */
+}
+
+
+.text-sx{
+  width: 70%;
+  height: 50px;
+  background-color: white;
 }
 
 .articoli{
   margin: 0 3%;
   width: 54%;
-  height: 600px;
-  background-color: lightblue;
+  /* height: 600px; */
+  background-color: white;
 }
+
+h1{
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.articoli p{
+  line-height: 1.6;
+  padding: 20px;
+}
+
+
 
 .widgets{
   width: 20%;
@@ -113,6 +152,8 @@ main::after{
   height: 250px;
   background-color: violet;
 }
+
+
 
 /* fine main */
 

@@ -150,9 +150,17 @@ h1{
 .widget{
   margin-bottom: 20px;
   height: 250px;
-  background-color: violet;
+  background-color: white;
 }
 
+.widgets .widget h2{
+  padding: 15px;
+}
+
+.widgets .widget p{
+  line-height: 1.6;
+  padding: 15px;
+}
 
 
 /* fine main */
@@ -160,9 +168,25 @@ h1{
 /* inizio footer */
 footer{
   height: 200px;
-  background-color: yellow;
+  background-color: white;
   margin: 10px;
 }
+
+footer p{
+  text-align: center;
+
+}
+
+footer hr{
+  border: 1px solid rgba(0, 0, 0, 0.47);
+}
+
+.social i{
+  font-size: 100px;
+  text-align: center;
+  width:
+}
+
 
 
 /* end */

@@ -13,7 +13,9 @@
   float: left;
 }
 
-
+body{
+  background-image: url('../img/natural-pattern.png');
+}
 
 /* header */
 header{
@@ -40,11 +42,39 @@ header{
 
 .header-image img{
   width: 50%;
+  color: white;
+  text-transform: uppercase;
 }
 
-/* nav li a{
-  display: inline;
-} */
+.header-image h2{
+color: white;
+text-transform: uppercase;
+}
+
+nav{
+  text-align: center;
+  /* background-color: yellow; */
+}
+
+nav .menu li {
+  display: inline-block;
+  line-height: 20px;
+  padding: 20px;
+  height: 20px;
+
+}
+
+nav .menu a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  background-color: rgba(0, 0, 0, 0.10);
+
+}
+
+
 
 /* main */
 main{

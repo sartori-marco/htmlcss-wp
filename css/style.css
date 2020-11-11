@@ -14,13 +14,18 @@
   float: left;
 }
 
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body{
   background-image: url('../img/natural-pattern.png');
 }
 
 /* header */
 header{
-  height: 400px;
   background-color: grey;
   margin: 10px;
 }
@@ -39,6 +44,7 @@ header{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .header-image img{
@@ -59,10 +65,7 @@ nav{
 
 nav .menu li {
   display: inline-block;
-  line-height: 20px;
-  padding: 20px;
-  height: 20px;
-
+  padding: 15px;
 }
 
 nav .menu a{
@@ -70,12 +73,9 @@ nav .menu a{
   color: white;
 }
 
-a:hover{
+.menu li:hover{
   background-color: rgba(0, 0, 0, 0.10);
-
 }
-
-
 
 /* main */
 main{
@@ -92,7 +92,6 @@ main::after{
 
 .temi{
   width: 20%;
-  /* height: 250px; */
   background-color: white;
 }
 
@@ -112,19 +111,20 @@ main::after{
 
 .menu-sx li a{
   text-decoration: none;
-  color: green;
+  color: rgb(33, 199, 89);
+}
+
+.menu-sx li:hover{
+  text-decoration: underline;
 }
 
 .logo-sx{
   width: 30%;
-  height: 50px;
   /* background-color: red; */
 }
 
-
 .text-sx{
   width: 70%;
-  height: 50px;
   background-color: white;
 }
 
@@ -145,12 +145,8 @@ h1{
   padding: 20px;
 }
 
-
-
 .widgets{
   width: 20%;
-  height: 250px;
-  background-color: pink;
 }
 
 .widget{
@@ -173,7 +169,6 @@ h1{
 
 /* inizio footer */
 footer{
-  height: 200px;
   background-color: white;
   margin: 10px;
 }
@@ -188,21 +183,17 @@ footer hr{
   background-color: lightgrey;
 }
 
-/* .social{
-  width: 33%;
-} */
-
-
-.social {
-  font-size: 50px;
+.social{
   text-align: center;
+}
+
+
+.social-box{
+  font-size: 30px;
   color: lightgrey;
-  line-height: 3.5;
-
+  display: inline-block;
+  width: calc(100% / 3);
 }
 
-.social i{
-  padding: 50px;
-}
-
+/* fine footer */
 /* end */
